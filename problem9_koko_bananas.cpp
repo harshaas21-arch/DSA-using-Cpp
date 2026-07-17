@@ -32,7 +32,7 @@ int minEatingSpeed(const vector<int>& piles, int h){
 }
 int main(){
     vector<int> piles = {3, 6, 7, 11};
-    int h = 8;
+    int h = 5;
 
     cout << "Minimum banana eating speed required: " << minEatingSpeed(piles, h) << "\n";
 
