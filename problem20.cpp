@@ -16,7 +16,6 @@ public:
    }
    void display(){
     int area = 1;
-    Rectangle::display();
     area = width * height;
     cout << (area) ;
    }
