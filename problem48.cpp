@@ -3,7 +3,6 @@
 using namespace std;
 
 vector<vector<int>> transpose(const vector<vector<int>>& matrix, int rows, int cols){
-
     vector<vector<int>> result(cols, vector<int>(rows));
     for(int r=0; r<rows; r++){
         for(int c=0; c<cols; c++){
