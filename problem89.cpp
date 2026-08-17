@@ -24,7 +24,7 @@ int main(){
     for(int i=0; i<q; i++){
         cin >> a >> b;
         if(a==0){
-            int sum = prefix[b] - prefix[a];
+            int sum = prefix[b];
             cout << sum << endl;
         }
         else {int sum = prefix[b] - prefix[a-1];
